@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="Hebrew" dir="rtl">
+
+<head>
+  <meta charset="utf-8">
+  <title>הציירת יהודית חדד</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Secular+One&family=Varela+Round&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/master.css">
+
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/site/color-palette.png" alt="logo" width="35" class="logo-image d-inline-block align-text-center">
+        <h3>יהודית חדד</h3>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">דף הבית</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">אומנות</a>
+            <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end art-dropdown" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="paintings.html">ציורים</a></li>
+              <li><a class="dropdown-item" href="statues.html">פסלים</a></li>
+              <li><a class="dropdown-item" href="cakes.html">עוגות</a></li>
+              <li><a class="dropdown-item" href="costumes.html">תחפושות</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#bio-section">ביוגרפיה</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-us">צור קשר</a>
+          </li>
+      </div>
+  </nav>
+
+  <!-- Featured Art -->
+
+    <div id="featured-art" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/paintings/childhood2015a_small.jpg" class="d-block-inline w-75" alt="a">
+        </div>
+        <div class="carousel-item">
+          <img src="img/paintings/childhood2015b_small.jpg" class="d-block-inline w-75" alt="b">
+        </div>
+        <div class="carousel-item">
+          <img src="img/paintings/childhood2015c_small.jpg" class="d-block-inline w-75" alt="c">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#featured-art" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#featured-art" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+  <!-- Bio -->
+    <div class="bio" id="bio-section">
+      <img class="avatar" src="img/yehudit/yehudit_avatar.jpg" alt="יהודית חדד">
+      <div class="bio-text">
+        <h1>האמנית יהודית חדד</h1>
+        <p>
+          יהודית חדד נולדה בשכונת התקווה בתל אביב בשנת 1936, הבת השלישית מתוך תשעת הילדים של ויקטוריה ושלום כהן.
+        </p>
+        <p>
+          יהודית נישאה לדוד חדד וביחד הם גידלו משפחה לתפארת - ארבעה ילדים ו-12 נכדים. הם גרים בגבעתיים, שם יהודית מתנדבת כמורה לציור במועדון גימלאים.
+        </p>
+      </div>
+    </div>
+
+  <!-- Contact Us -->
+
+    <div class="row contact-form" id="contact-us">
+      <div class="col-4">
+        <h2>צור קשר</h2>
+        <form action="mailto:yaarashalom88@gmail.com" method="post">
+          <form class="row g-3">
+            <div class="col-12">
+              <div class="mb-3">
+                <label for="name" class="form-label">שם מלא:</label>
+                <input type="text" name="Name" value="" class="form-control" id="formFullName">
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="mb-3">
+                <label for="email" class="form-label">כתובת מייל:</label>
+                <input type="email" name="Email" value="" class="form-control" id="formEmail">
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="mb-3">
+                <label for="textarea" class="form-label">תוכן הפנייה:</label>
+                <textarea name="Text" value="" class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+              </div>
+            </div>
+            <div class="col-12">
+              <input type="submit" value="שלח" class="btn btn-outline-danger">
+              <input type="reset" value="נקה" class="btn btn-outline-danger">
+            </div>
+          </form>
+      </div>
+    </div>
+
+
+  <footer>
+      <p class="copyright">
+        כל הזכויות שמורות יערה שלום 2021
+      </p>
+  </footer>
+
+
+  <!-- Boostrap Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

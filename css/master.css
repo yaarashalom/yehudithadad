@@ -1,0 +1,109 @@
+/**************TAG SELECTORS**************/
+body {
+  background-color: #FAEBD7;
+  color: #323038;
+  font-family: 'Varela Round', sans-serif;
+}
+
+h1 {
+  color: #CD113B;
+  font-size: 2.5rem;
+  text-align: center;
+  font-family: 'Secular One', sans-serif;
+}
+
+h2 {
+  color: #CD113B;
+  font-family: 'Secular One', sans-serif;
+  padding: 0;
+}
+
+h3 {
+  color: #CD113B;
+  font-family: 'Secular One', sans-serif;
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+
+hr {
+  border-color: gray;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+}
+
+footer {
+  background-color: #DDBAC1;
+    font-weight: bold;
+}
+
+/* Navigation Bar */
+.navbar {
+background-color: #FAEBD7;
+  padding: 0;
+}
+.logo-image {
+  margin: 0 10px;
+}
+.nav-item {
+  text-align: left;
+}
+.art-dropdown {
+  text-align: right;
+}
+
+/* Featured Art */
+#featured-art {
+margin-top: 20px;
+  text-align: center;
+  background-color: #FAEBD7;
+}
+
+/* Bio Section */
+.bio {
+  overflow: hidden;
+  padding: 20px 10px;
+}
+
+.bio-text {
+  padding: 0 20px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 25%;
+  float: right;
+  padding: 30px 30px;
+}
+
+/* Contact Us */
+.contact-form {
+  padding: 0 30px 30px 0;
+  margin: 0;
+  padding-top: 0;
+  text-align: right;
+  line-height: 0.2;
+  background-color: #FAEBD7;
+  display: block;
+  color: #dc3545;
+  font-weight:300;
+}
+
+.form-control {
+  background-color: #FAEDDB;
+  outline: 1px solid #dc3545;
+}
+
+.form-control:focus {
+  background-color: #FAEDDB;
+}
+
+/* Footer */
+
+.copyright {
+  padding: 10px 0;
+  margin-bottom: 0;
+  text-align: center;
+}
